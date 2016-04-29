@@ -98,6 +98,9 @@ var FloatLabelTextField = React.createClass({
                 keyboardType={this.props.keyboardType}
                 autoCapitalize={this.props.autoCapitalize}
                 autoCorrect={this.props.autoCorrect}
+                returnKeyType={this.props.returnKeyType}
+                onKeyPress={this.props.onKeyPress}
+                editable={this.props.editable}
               />
             </TextFieldHolder>
           </View>
